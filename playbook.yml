@@ -4,5 +4,5 @@
   hosts: all
   
   tasks: 
-    -name: Adding the user
-     user: name=pulkit uid=1005 state=present
+    - name: Adding the user
+      user: name=pulkit uid=1005 state=present
